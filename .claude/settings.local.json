@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__read_multiple_files",
+      "mcp__filesystem__create_directory",
+      "mcp__sequential-thinking__sequentialthinking"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enabledMcpjsonServers": [
+    "filesystem",
+    "memory",
+    "sequential-thinking",
+    "fetch",
+    "git",
+    "time",
+    "tavily-mcp",
+    "wikipedia",
+    "context7",
+    "playwright"
+  ]
+}
